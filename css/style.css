@@ -1,0 +1,22 @@
+/* button style */
+.btn-blue {
+    color: white;
+    background-color: #4C00FF;
+}
+
+.card-body a:hover {
+    color: white;
+}
+
+.footer-form {
+    text-align: center;
+}
+
+input {
+    width: 500px;
+}
+
+.link {
+    list-style-type: none;
+    text-decoration: none;
+}
