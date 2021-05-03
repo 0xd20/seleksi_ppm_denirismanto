@@ -1,0 +1,135 @@
+
+
+# NOMOR 4
+
+<?php
+
+$bil1 = 1;
+$bil2 = 2;
+$bil3 = 3;
+$bil4 = 4;
+$bil5 = 5;
+$bil6 = 6;
+$bil7 = 7;
+$bil8 = 8;
+$bil9 = 9;
+$bil10 = 10;
+
+if ($bil1 %2 == 0){
+echo "$bil1 Bilangan genap";
+}else{
+echo "$bil1 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil2 %2 == 0){
+echo "$bil2 Bilangan genap";
+}else{
+echo "$bil2 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil3 %2 == 0){
+echo "$bil3 Bilangan genap";
+}else{
+echo "$bil3 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil4 %2 == 0){
+echo "$bil4 Bilangan genap";
+}else{
+echo "$bil4 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil5 %2 == 0){
+echo "$bil5 Bilangan genap";
+}else{
+echo "$bil5 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil6 %2 == 0){
+echo "$bil6 Bilangan genap";
+}else{
+echo "$bil6 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil7 %2 == 0){
+echo "$bil7 Bilangan genap";
+}else{
+echo "$bil7 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil8 %2 == 0){
+echo "$bil8 Bilangan genap";
+}else{
+echo "$bil8 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil9 %2 == 0){
+echo "$bil9 Bilangan genap";
+}else{
+echo "$bil9 Bilangan ganjil";
+}
+
+echo "</br>";
+
+if ($bil10 %2 == 0){
+echo "$bil10 Bilangan genap";
+}else{
+echo "$bil10 Bilangan ganjil";
+}
+
+?>
+
+<?php
+for($mak = 1; $mak <= 3; $mak++){
+if ( ($mak %2) == 0){
+echo
+
+?>
+
+
+# NOMOR 5 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "Makanan</br>";
+for ($x = 1; $x <= 3; $x++) {
+  	echo "$x. Menu Makanan ke $x <br>";
+}
+?>
+
+<?php
+echo "Minuman</br>";
+for ($y = 1; $y <= 3; $y++) {
+  	echo "$y. Menu Minuman ke $y <br>";
+}
+?>
+
+<?php
+echo "Parsel</br>";
+for ($z = 1; $z <= 3; $z++) {
+  	echo "$z. Menu Parsel ke $z <br>";
+}
+?>  
+
+</body>
+</html>
+
