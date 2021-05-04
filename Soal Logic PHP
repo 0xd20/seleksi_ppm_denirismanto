@@ -1,4 +1,30 @@
+# NOMOR 1
 
+<?php
+
+$bulpoin = 1750;
+$lusin = 12;
+$uang = 5 * 5000;
+
+echo $bulpoin * $lusin - $uang;
+
+?>
+
+# NOMOR 2
+
+<?php
+
+$uang = [
+	  3 * 10000,
+    4 * 5000,
+    5 * 20000
+];
+
+$jml = array_sum($uang);
+
+echo $jml - 55000;
+
+?>
 
 # NOMOR 4
 
